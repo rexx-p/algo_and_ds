@@ -1,0 +1,12 @@
+{
+  "name": "algo_and_ds",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "simpleSearch.js",
+  "scripts": {
+    "start": "node tests.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
