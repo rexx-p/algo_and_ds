@@ -2,6 +2,7 @@ import simpleSearch from './SearchesAlgorithms/simpleSearch.js';
 import binarySearch from './SearchesAlgorithms/binarySearch.js';
 import simpleSort from './SortingAlgorithms/simpleSort.js'
 import insertionSort from './SortingAlgorithms/insertionSort.js'
+import mergeSort from './SortingAlgorithms/mergeSort.js'
 
 const arr = [1, 46, 77, 35, 7, 5, 22, 8, 3, 5, 6];
 
@@ -14,3 +15,5 @@ console.log('Searching for element 8 using SimpleSearch. Element found at Positi
 console.log('Sorting the array using simple sort', simpleSort(arr));   // Complexity = O(n*n)
 
 console.log('Sorting the array using insertion sort', insertionSort(arr) );   // Complexity = O(n*n)
+
+console.log('Sorting the array using merge sort', mergeSort(arr) );   // Complexity = O(n*n)
